@@ -1,0 +1,9 @@
+{
+  "name": "geo-content-operator",
+  "description": "Generate GEO-optimized B2B export content that gets cited by AI search (ChatGPT, Google AI Overviews, Gemini) — inverted-pyramid fact-dense lead, comparison tables, buyer FAQs, and Article/FAQPage JSON-LD.",
+  "version": "0.1.0",
+  "author": { "name": "Paibao", "url": "https://paibao.ai" },
+  "homepage": "https://github.com/iPythoning/geo-content-operator",
+  "license": "GPL-2.0-or-later",
+  "keywords": ["geo", "seo", "content", "ai-search", "b2b", "jsonld"]
+}

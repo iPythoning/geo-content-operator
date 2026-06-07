@@ -14,10 +14,17 @@ knowledge base, expert-interview elicitation, coverage tracking — is the paid 
 | **Local** (default) | nothing | The model follows the GEO method in `SKILL.md` (bring-your-own model) |
 | **Hosted** (pro) | `PAIBAO_LICENSE_KEY` | `scripts/generate.sh` calls the engine; returns html + markdown + jsonld grounded in your dynamic knowledge base |
 
-## Install (Claude Code / agent skills)
+## Install
 
-Drop this folder where your agent loads skills (e.g. a plugin's `skills/` directory), or copy
-`SKILL.md` into your skills path. The agent activates it by description match.
+**Claude Code (marketplace):**
+
+```
+/plugin marketplace add iPythoning/geo-content-operator
+/plugin install geo-content-operator@paibao
+```
+
+**Any agent (manual):** copy `skills/geo-content-operator/` into your skills path. The agent
+activates it by description match.
 
 ## Hosted usage
 

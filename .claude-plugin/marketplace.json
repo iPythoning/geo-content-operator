@@ -1,0 +1,15 @@
+{
+  "name": "paibao",
+  "owner": { "name": "Paibao", "url": "https://paibao.ai" },
+  "metadata": {
+    "description": "Paibao open-source AI content operator plugins.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "geo-content-operator",
+      "source": "./",
+      "description": "Generate GEO-optimized B2B export content that gets cited by AI search."
+    }
+  ]
+}
